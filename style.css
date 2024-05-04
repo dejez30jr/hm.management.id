@@ -58,7 +58,7 @@ a{
 }
 a:hover{
     border-radius: 20px;
-    background-color: traparent;
+    border-bottom: 2px solid blue;
 }
 /*slider*/
 #slide-1:target ~ .images{
