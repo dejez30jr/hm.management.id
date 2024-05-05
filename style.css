@@ -56,10 +56,6 @@ a{
     gap: 2rem;
     border-radius: 20px;
 }
-a:hover{
-    border-radius: 20px;
-    border-bottom: 2px solid blue;
-}
 /*slider*/
 #slide-1:target ~ .images{
     margin-left: 0px;
