@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
 }
@@ -26,6 +26,17 @@ header {
     font-size: 24px;
     font-weight: bold;
 }
+
+.menu-icon{
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid white;
+    /* background-color: rgb(93, 93, 199); */
+}
+
 
 nav {
     display: flex;
@@ -62,12 +73,13 @@ nav a {
     align-items: center;
     justify-content: center;
     height: auto; /* Make the hero section full height */
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     color: rgb(0, 0, 0);
     text-align: center;
     position: relative;
     overflow: hidden;
 }
+
 
 h2{
     margin-top: 30px;
@@ -80,33 +92,45 @@ h2{
 }
 
 button{
-    margin-bottom: 60px;
-    padding: 25px;
+    margin-bottom: 20px;
+    padding: 30px;
     color: #ffffff;
-    margin-top: 40px
+    margin-top: 40px;
+    margin: 10px;
+    box-shadow: 0 6px 10px rgb(43, 42, 42);
+}
+
+
+
+.btn{
+    padding: 25px;
 }
 
 a{
     color: white;
 }
 
+
+
 .carousel-inner img { 
     width: 100%;
     height: auto;
+    border-radius: 0px 0px 20px 20px;
 }
 
-.hero h1 {
-    font-size: 48px;
+.hero h2 {
     margin: 20px 0 10px 0;
     position: relative;
     z-index: 1;
+    width: 90%;
 }
 
 .hero p {
     font-size: 24px;
-    margin: 10px 0 20px 0;
+    margin-top: 10px;
     position: relative;
     z-index: 1;
+    font-family: "Roboto Mono", monospace;
 }
 
 .features, .about, .testimonials {
